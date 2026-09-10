@@ -85,7 +85,7 @@ Este levantamento de requisitos em formato de questionário foi estruturado para
 * **Atributos:** Quais campos cada entidade deve possuir e quais seus tipos de dados? *(Ex.: Usuário: id (int), nome (string), email (string))* .
 * **Relacionamentos:** Como as entidades se conectam? *(Ex.: Um Usuário possui muitos Pedidos; Um Pedido possui vários Produtos)*.
 
-**8. TESTES**
+**8. TEXTES**
 
 * **Tipos de Testes Necessários:** O projeto exige cobertura de testes unitários, de integração ou end-to-end (E2E)?
 * **Framework de Testes:** Qual biblioteca de testes deve ser configurada? *(Ex.: Jest, PyTest, Cypress)*.
