@@ -30,20 +30,32 @@ Dessa maneira, o usuário não precisa necessariamente possuir conhecimentos ava
 
 ---
 
+
 ## 💡 PROBLEMA IDENTIFICADO
 
-O desenvolvimento de software com inteligência artificial pode apresentar dificuldades quando o usuário não consegue descrever adequadamente suas necessidades.
+Com a popularização das ferramentas de inteligência artificial aplicadas ao desenvolvimento de software, surgiu uma nova possibilidade: permitir que pessoas desenvolvam sistemas utilizando apenas instruções em linguagem natural.
+
+Entretanto, essa interação apresenta desafios importantes. A comunicação entre o usuário e a IA nem sempre acontece de maneira eficiente, principalmente quando o usuário não possui conhecimentos técnicos suficientes para descrever exatamente o que deseja.
 
 Entre os principais problemas identificados estão:
 
-- Dificuldade na elaboração de prompts técnicos.
-- Falta de clareza na definição dos requisitos.
-- Inconsistências entre as funcionalidades solicitadas.
-- Necessidade de múltiplas instruções para alcançar o resultado esperado.
-- Falta de organização das informações durante o planejamento.
-- Dificuldade em traduzir necessidades reais em soluções tecnológicas.
+- **Barreira de comunicação:** dificuldade de transmitir ideias e necessidades humanas para uma inteligência artificial de maneira clara e objetiva.
+- **Falta de conhecimento técnico:** usuários sem experiência em programação podem não conhecer os termos necessários para descrever funcionalidades, arquiteturas e regras de negócio.
+- **Interpretação equivocada:** a IA pode compreender uma solicitação de maneira diferente da intenção original do usuário.
+- **Prompts incompletos:** instruções sem informações suficientes podem gerar funcionalidades inconsistentes ou resultados diferentes dos esperados.
+- **Comunicação fragmentada:** necessidade de enviar diversos prompts para corrigir, complementar ou explicar novamente as informações.
+- **Falta de planejamento:** ausência de um levantamento estruturado pode comprometer a organização e a qualidade do software desenvolvido.
 
-O ZAYIN foi desenvolvido para atuar diretamente nesses pontos, organizando as informações antes de encaminhá-las às ferramentas de desenvolvimento.
+Dessa forma, o problema não está apenas na capacidade da inteligência artificial de desenvolver sistemas, mas também na maneira como as necessidades humanas são transmitidas, interpretadas e transformadas em instruções técnicas.
+
+### 🎯 A PROPOSTA DO ZAYIN
+
+O ZAYIN surge como uma ponte entre o usuário e a inteligência artificial.
+
+Por meio da Hanna, o projeto busca estabelecer uma comunicação mais eficiente, conduzindo o usuário por um processo de levantamento de informações e convertendo suas ideias em requisitos e instruções técnicas estruturadas.
+
+Assim, a IA recebe informações mais completas, organizadas e alinhadas aos objetivos do projeto, reduzindo falhas de interpretação e a necessidade de múltiplas interações.
+.
 
 ---
 
