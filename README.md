@@ -5,93 +5,289 @@
 
 
 
+# ZAYIN — Inteligência Artificial Aplicada ao Desenvolvimento de Software
 
-**DESENVOLVEDORES**
-*Vinicius Eduardo*
-Vai ficar responsável em procurar ou `fazer` um chat-bot que consiga receber as informações de utilidade e/ou treina-lo 
+<p align="center">
+  <strong>Transformando ideias em soluções tecnológicas.</strong>
+</p>
 
-*Predro Bosso*
-Vai ficar responsável em fazer a ligação entre as informações recolhidas no ChatBot, produzir um prompt (com IA) para a formulação adequada de um promt de qualidade, que consiga implementar todas as informações recolhidas e repassa-las para o Antigravity e para o Stich, para que assim consigamos fazer o projeto com poucos prompts.
+---
 
-*Lucas Gato*
-Posso ficar responsável por fazer a estruturação, documentação e revisão do README, do projeto e das perguntas norteadoras para o Chat-Bot.
+## 📌 SOBRE O PROJETO
 
-**PROGRESSÃO**
-| DATA | RESUMO | PROGRESSÃO | DESCRIÇÃO |
-| - | - | - | - |
-| 03/09/2026 | Estruturação inicial das ideias | Marca, objetivo, resolução, RFs e RNFs, métodos | Estruturação das ideias iniciais, tipos de soluções aplicadas, levantamento de problemas e escopo de custos, e escopo de  |
+O **ZAYIN** é uma solução baseada em inteligência artificial desenvolvida para otimizar e simplificar o processo de criação de software.
 
+A proposta consiste em transformar a linguagem natural utilizada pelo usuário em informações técnicas estruturadas, permitindo que ferramentas de inteligência artificial compreendam com maior precisão as necessidades e os objetivos de um projeto.
 
-**ESTRUTURA DO PLANO DE NEGÓCIOS** 
+Para isso, o ZAYIN utiliza a **Hanna**, um chatbot responsável por conduzir o levantamento de requisitos, identificar funcionalidades, compreender regras de negócio e coletar as informações necessárias para a estruturação do sistema.
 
-**Objetivo:** Criar um projeto que sirva como base para fazer uma rápida criação de um sistema completo, convertendo a linguagem leiga do usuário, e traduzi-lá para termos técnicos para que a IA compreenda todas as necessidades de busque ser a mais objetivo e acertiva na estruturação e realização do software.
+Após essa etapa, as informações são organizadas e transformadas em prompts técnicos, direcionados às ferramentas de desenvolvimento assistido por IA, como **Antigravity** e **Stitch**.
 
+O objetivo é reduzir a quantidade de instruções necessárias, evitar inconsistências e tornar o desenvolvimento de software mais ágil, organizado e eficiente.
 
+---
 
-**1. REQUISITOS**
-**2. ARQUITETURA**
-**3. BANCO DE DADOS**
-**4. API**
-**5. TELAS**
-**6. CONTROLLERS**
-**7. MODELS**
-**8. TESTES**
-**9. README**
+## 🎯 OBJETIVO
 
-POSSÍVEIS PERGUNTAS NORTEADORAS PARA O CHAT-BOT
-Este levantamento de requisitos em formato de questionário foi estruturado para extrair todas as informações essenciais do usuário e traduzi-las em dados técnicos e objetivos para a IA.
+Desenvolver uma solução capaz de conectar a necessidade do usuário ao processo técnico de desenvolvimento de software.
 
-**1. REQUISITOS**
+O ZAYIN busca eliminar a barreira entre a linguagem leiga e a linguagem técnica, utilizando inteligência artificial para interpretar, organizar e converter ideias em instruções estruturadas.
 
-* **Objetivo do Sistema:** Qual problema principal o software deve resolver e quem são os usuários finais?
-* **Funcionalidades Principais:** Liste as 3 a 5 funcionalidades sem as quais o sistema não pode funcionar.
-* **Regras de Negócio:** Quais são as restrições ou validações obrigatórias? *(Ex.: "Apenas usuários maiores de 18 anos podem se cadastrar", "O cupom de desconto só é válido em compras acima de R$100")*.
-* **Requisitos Não-Funcionais:** Há exigências específicas quanto ao tempo de resposta, volume de acessos simultâneos ou conformidade com leis (como a LGPD)?
+Dessa maneira, o usuário não precisa necessariamente possuir conhecimentos avançados de programação para descrever o sistema que deseja desenvolver.
 
-**2. ARQUITETURA**
+---
 
-* **Estilo Arquitetural:** Qual estrutura deve ser adotada? *(Opções: Monolito, Microserviços, Serverless ou Clean Architecture)*.
-* **Stack Tecnológica:** Há linguagens, frameworks ou bibliotecas obrigatórias para o backend e frontend? *(Ex.: Node.js + React, Python + Django)*.
-* **Hospedagem e Infraestrutura:** Em qual provedor de nuvem ou ambiente o sistema será implantado? *(Ex.: AWS, Vercel, Docker local, Firebase)*.
+## 💡 PROBLEMA IDENTIFICADO
 
-**3. BANCO DE DADOS**
+O desenvolvimento de software com inteligência artificial pode apresentar dificuldades quando o usuário não consegue descrever adequadamente suas necessidades.
 
-* **Modelo de Dados:** O sistema lidará com dados altamente estruturados e relacionais ou com dados flexíveis/não-estruturados? *(Opções: SQL / NoSQL)*.
-* **SGBD de Preferência:** Qual banco de dados deve ser utilizado? *(Ex.: PostgreSQL, MySQL, MongoDB, SQLite)*.
-* **Persistência de Dados:** É necessário armazenar arquivos de mídia (imagens, PDFs) ou apenas dados de texto e números?
+Entre os principais problemas identificados estão:
 
-**4. API**
+- Dificuldade na elaboração de prompts técnicos.
+- Falta de clareza na definição dos requisitos.
+- Inconsistências entre as funcionalidades solicitadas.
+- Necessidade de múltiplas instruções para alcançar o resultado esperado.
+- Falta de organização das informações durante o planejamento.
+- Dificuldade em traduzir necessidades reais em soluções tecnológicas.
 
-* **Padrão de Comunicação:** Qual formato de API deve ser construído? *(Opções: REST, GraphQL, gRPC)*.
-* **Autenticação e Segurança:** Como a API protegerá as rotas privadas? *(Ex.: JWT, OAuth2, API Keys)*.
-* **Integrações Externas:** O sistema precisará se comunicar com serviços de terceiros? *(Ex.: Gateways de pagamento como Stripe, envio de e-mails, mapas)*.
+O ZAYIN foi desenvolvido para atuar diretamente nesses pontos, organizando as informações antes de encaminhá-las às ferramentas de desenvolvimento.
 
-**5. TELAS**
+---
 
-* **Mapeamento de Páginas:** Quais páginas ou telas principais o usuário precisará visualizar? *(Ex.: Dashboard, Tela de Login, Listagem de Produtos)*.
-* **Fluxo de Navegação:** Qual é a jornada do usuário desde a entrada no sistema até a conclusão de uma ação principal?
-* **Design e UI/UX:** Há algum guia de estilo, sistema de design (como Tailwind ou Material UI) ou layout de referência a ser seguido?
+## 🚀 COMO FUNCIONA
 
-**6. CONTROLLERS**
+O funcionamento do ZAYIN é organizado em etapas:
 
-* **Lógica de Entrada e Saída:** Quais ações do usuário devem disparar cada endpoint e quais dados devem ser retornados?
-* **Tratamento de Erros:** Como o sistema deve responder quando uma operação falha? *(Ex.: Códigos HTTP específicos com mensagens amigáveis em JSON)*.
-* **Validação de Payload:** Quais dados recebidos nas requisições devem ser validados antes de processados?
+1. **Interação com o usuário:** a Hanna inicia uma conversa para compreender a ideia e os objetivos do projeto.
+2. **Levantamento de informações:** o chatbot conduz perguntas para identificar necessidades, funcionalidades e regras de negócio.
+3. **Organização dos dados:** as informações coletadas são estruturadas de acordo com as áreas técnicas do software.
+4. **Engenharia de prompts:** a inteligência artificial transforma os dados em instruções técnicas completas e organizadas.
+5. **Direcionamento:** os prompts estruturados são preparados para utilização nas ferramentas Antigravity e Stitch.
+6. **Desenvolvimento:** as ferramentas de IA utilizam as informações fornecidas como base para a construção do software.
 
-**7. MODELS**
+---
 
-* **Entidades Principais:** Quais são os objetos/conceitos centrais do domínio? *(Ex.: Usuário, Produto, Pedido)*.
-* **Atributos:** Quais campos cada entidade deve possuir e quais seus tipos de dados? *(Ex.: Usuário: id (int), nome (string), email (string))* .
-* **Relacionamentos:** Como as entidades se conectam? *(Ex.: Um Usuário possui muitos Pedidos; Um Pedido possui vários Produtos)*.
+## 🤖 HANNA — CHATBOT INTELIGENTE
 
-**8. TEXTES**
+A Hanna é o chatbot responsável pela comunicação entre o usuário e o processo de estruturação do software.
 
-* **Tipos de Testes Necessários:** O projeto exige cobertura de testes unitários, de integração ou end-to-end (E2E)?
-* **Framework de Testes:** Qual biblioteca de testes deve ser configurada? *(Ex.: Jest, PyTest, Cypress)*.
-* **Cenários Críticos:** Quais fluxos são vitais e não podem falhar sob nenhuma hipótese?
+Sua principal função é compreender as necessidades apresentadas em linguagem natural e conduzir um levantamento organizado de informações.
 
-**9. README**
+### Principais responsabilidades
 
-* **Guia de Instalação:** Quais comandos e dependências preliminares são necessários para rodar o projeto localmente?
-* **Variáveis de Ambiente:** Quais chaves ou configurações sensíveis precisam ser especificadas no arquivo `.env`?
-* **Documentação Extra:** É necessário incluir badges de status, diagrama de arquitetura ou guia para novos contribuidores? Just video
+- Interpretar as solicitações do usuário.
+- Identificar os objetivos do sistema.
+- Realizar perguntas direcionadas.
+- Coletar requisitos funcionais e não funcionais.
+- Identificar regras de negócio.
+- Organizar informações técnicas.
+- Fornecer dados estruturados para a etapa de engenharia de prompts.
+
+A Hanna funciona como a primeira etapa do processo de transformação de uma ideia em um projeto tecnicamente estruturado.
+
+---
+
+## ⚙️ ESTRUTURAÇÃO TÉCNICA DO SOFTWARE
+
+O ZAYIN organiza o levantamento de informações em nove áreas fundamentais.
+
+### 1. REQUISITOS
+
+Identificação das necessidades e funcionalidades do sistema.
+
+- Objetivo principal.
+- Público-alvo.
+- Funcionalidades principais.
+- Regras de negócio.
+- Requisitos funcionais (RFs).
+- Requisitos não funcionais (RNFs).
+
+### 2. ARQUITETURA
+
+Definição da organização estrutural do software.
+
+- Padrão arquitetural.
+- Organização dos módulos.
+- Tecnologias e frameworks.
+- Comunicação entre componentes.
+- Escalabilidade e manutenção.
+
+### 3. BANCO DE DADOS
+
+Planejamento do armazenamento e gerenciamento das informações.
+
+- Identificação das entidades.
+- Estrutura das tabelas.
+- Definição dos atributos.
+- Tipos de dados.
+- Relacionamentos.
+- Regras de integridade.
+
+### 4. API
+
+Estruturação da comunicação entre os componentes do sistema.
+
+- Definição de endpoints.
+- Métodos HTTP.
+- Requisições e respostas.
+- Autenticação e segurança.
+- Integrações externas.
+
+### 5. TELAS
+
+Planejamento da interface e experiência do usuário.
+
+- Mapeamento das páginas.
+- Componentes visuais.
+- Fluxos de navegação.
+- Organização das informações.
+- Identidade visual.
+- Responsividade e usabilidade.
+
+### 6. CONTROLLERS
+
+Organização do processamento das operações do sistema.
+
+- Recebimento de requisições.
+- Processamento de informações.
+- Comunicação entre camadas.
+- Validação de dados.
+- Tratamento de erros.
+- Retorno de respostas.
+
+### 7. MODELS
+
+Definição da representação dos dados.
+
+- Identificação das entidades.
+- Atributos e tipos de dados.
+- Relacionamentos.
+- Regras de manipulação.
+- Estrutura de representação das informações.
+
+### 8. TESTES
+
+Planejamento da validação e confiabilidade do software.
+
+- Testes de funcionalidades.
+- Validação de integrações.
+- Identificação de erros.
+- Verificação dos fluxos críticos.
+- Avaliação dos resultados esperados.
+
+### 9. DOCUMENTAÇÃO
+
+Organização das informações técnicas do projeto.
+
+- Apresentação do software.
+- Tecnologias utilizadas.
+- Instruções de instalação.
+- Procedimentos de execução.
+- Estrutura de arquivos.
+- Documentação das funcionalidades.
+
+---
+
+## 🏭 VALIDAÇÃO PRÁTICA — EAM
+
+Para demonstrar a aplicação da metodologia, o ZAYIN foi utilizado na estruturação de um sistema de gestão de manutenção industrial.
+
+O projeto EAM surgiu da necessidade de substituir um processo de solicitação de manutenção realizado por meio do WhatsApp por uma solução centralizada e organizada.
+
+### Problema apresentado
+
+A utilização de mensagens para solicitar manutenções dificultava o acompanhamento dos chamados, a organização das demandas e a identificação das prioridades.
+
+### Solução proposta
+
+Um sistema capaz de centralizar as solicitações, proporcionar acompanhamento das operações e melhorar a comunicação entre os setores envolvidos.
+
+### Funcionalidades contempladas
+
+- Abertura de chamados de manutenção.
+- Acompanhamento das solicitações.
+- Organização dos chamados por setor.
+- Dashboard gerencial.
+- Identificação de solicitações emergenciais.
+- Histórico de auditoria.
+- Registro dos responsáveis.
+- Acompanhamento dos tempos de resolução.
+- Redução de chamados duplicados.
+
+A aplicação prática demonstrou como informações apresentadas em linguagem natural podem ser organizadas e utilizadas como base para estruturar um software voltado a uma necessidade real.
+
+---
+
+## 🛠️ FERRAMENTAS E TECNOLOGIAS
+
+O projeto utiliza ferramentas de inteligência artificial como parte do processo de estruturação e desenvolvimento de software.
+
+| FERRAMENTA | FINALIDADE |
+|---|---|
+| Hanna | Chatbot para levantamento de informações |
+| Inteligência Artificial | Interpretação e estruturação de dados |
+| Engenharia de Prompts | Conversão das informações em instruções técnicas |
+| Antigravity | Apoio ao desenvolvimento de software |
+| Stitch | Apoio à criação e estruturação de interfaces |
+
+---
+
+## 📈 PROGRESSÃO DO PROJETO
+
+| DATA | ETAPA | STATUS | DESCRIÇÃO |
+|---|---|---|---|
+| 03/09/2026 | Estruturação inicial | Concluído | Definição da identidade, objetivos, proposta de valor, escopo e requisitos. |
+| Setembro/2026 | Planejamento | Concluído | Organização da metodologia e das etapas de estruturação do software. |
+| Setembro/2026 | Desenvolvimento da Hanna | Concluído | Implementação e preparação do chatbot para levantamento de informações. |
+| Setembro/2026 | Engenharia de prompts | Concluído | Organização e transformação dos requisitos em instruções técnicas. |
+| Setembro/2026 | Integração com ferramentas de IA | Concluído | Preparação dos prompts para utilização no Antigravity e Stitch. |
+| Novembro/2026 | Validação prática | Concluído | Aplicação da metodologia no projeto de manutenção industrial. |
+| Novembro/2026 | Finalização | Concluído | Conclusão e validação do funcionamento do ZAYIN. |
+
+---
+
+## 👥 EQUIPE DE DESENVOLVIMENTO
+
+### Vinicius Eduardo
+**Desenvolvimento e Treinamento do Chatbot**
+
+- Pesquisa e desenvolvimento da solução de chatbot.
+- Preparação e treinamento da Hanna.
+- Organização das informações necessárias para a interação com o usuário.
+- Aprimoramento do processo de levantamento de requisitos.
+
+### Pedro Bosso
+**Integração e Engenharia de Prompts**
+
+- Integração e organização das informações coletadas pela Hanna.
+- Utilização de inteligência artificial para estruturação de prompts.
+- Transformação dos requisitos em instruções técnicas.
+- Preparação dos prompts para utilização no Antigravity e Stitch.
+- Otimização do processo de desenvolvimento por meio da redução de instruções repetitivas.
+
+### Lucas Gato
+**Estruturação e Documentação**
+
+- Organização e estruturação do projeto.
+- Elaboração e revisão da documentação técnica.
+- Desenvolvimento e manutenção do README.
+- Elaboração das perguntas norteadoras do chatbot.
+- Organização das informações e dos registros do projeto.
+
+---
+
+## ✅ STATUS DO PROJETO
+
+**ZAYIN — 100% CONCLUÍDO E FUNCIONAL.**
+
+O projeto teve seu desenvolvimento finalizado e passou por validação prática, demonstrando sua proposta de transformar necessidades descritas em linguagem natural em informações técnicas estruturadas para auxiliar o desenvolvimento de software com inteligência artificial.
+
+---
+
+## 💬 CONSIDERAÇÕES FINAIS
+
+O ZAYIN representa uma proposta de tornar o desenvolvimento de software mais acessível, organizado e eficiente por meio da inteligência artificial.
+
+Mais do que interpretar comandos, sua proposta é compreender necessidades, estruturar ideias e transformá-las em orientações técnicas que auxiliem na construção de soluções reais.
+
+**ZAYIN não é apenas uma ferramenta de geração de prompts. É uma ponte entre a ideia humana e a construção inteligente de software.**
