@@ -1,10 +1,3 @@
-### Nome do software
-    Nome da IA:               Nome do Software:
-        - Hanna                 - Zayin
-    
-
-
-
 # ZAYIN — Inteligência Artificial Aplicada ao Desenvolvimento de Software
 
 <p align="center">
