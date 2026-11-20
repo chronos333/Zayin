@@ -3,8 +3,7 @@
         - Hanna                 - Zayin
     
 
-15/09/2026 -> Apresentação do pitch (Apenas a ideia prncipal, não é `necessário` estar com nada pronto).
-??/
+
 
 
 **DESENVOLVEDORES**
