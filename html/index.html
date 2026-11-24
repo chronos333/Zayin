@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1E3A5F">
+  <meta name="description" content="Converse com Hanna, sua assistente da Zayin.">
+  <title>Hanna — Zayin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="left-sidebar" aria-label="Navegação do espaço Zayin">
+      <a class="brand" href="#inicio" aria-label="Zayin — início">
+        <span class="brand-mark" aria-hidden="true"><i class="fa-solid fa-z"></i></span>
+        <span class="brand-copy">
+          <strong>Zayin</strong>
+          <span>ESTÚDIO DE IDEIAS</span>
+        </span>
+      </a>
+
+      <button class="new-chat-button" id="new-chat-button" type="button">
+        <i class="fa-solid fa-plus" aria-hidden="true"></i>
+        <span>Nova conversa</span>
+      </button>
+
+      <div class="sidebar-section-label">ESPAÇO ATUAL</div>
+      <div class="conversation-link" aria-current="page">
+        <span class="conversation-icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+        <span class="conversation-copy">
+          <strong>Ateliê de ideias</strong>
+          <span>Conversa com Hanna</span>
+        </span>
+        <i class="fa-solid fa-ellipsis conversation-menu" aria-hidden="true"></i>
+      </div>
+
+      <div class="sidebar-note">
+        <span class="note-orbit" aria-hidden="true"><i class="fa-solid fa-sparkles"></i></span>
+        <p>Uma boa ideia cresce quando encontra espaço.</p>
+      </div>
+
+      <div class="sidebar-bottom">
+        <div class="assistant-mini" aria-label="Hanna está pronta para conversar">
+          <span class="assistant-avatar" aria-hidden="true"><i class="fa-solid fa-brain"></i></span>
+          <span class="assistant-info">
+            <strong>Hanna</strong>
+            <span><span class="online-dot" aria-hidden="true"></span>Seu guia de criação</span>
+          </span>
+        </div>
+        <button class="settings-button" id="open-settings-button" type="button">
+          <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+          <span>Personalizar interface</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="main-panel" id="inicio">
+      <header class="chat-header">
+        <div class="chat-heading">
+          <span class="heading-kicker">SEU ESPAÇO DE CRIAÇÃO</span>
+          <h1>Ateliê de ideias <span class="heading-separator">/</span> <span>Hanna</span></h1>
+        </div>
+        <div class="header-actions">
+          <span class="connection-badge"><span class="online-dot" aria-hidden="true"></span>Pronta para conversar</span>
+          <button class="icon-button mobile-settings-button" id="mobile-settings-button" type="button" aria-label="Personalizar interface" title="Personalizar interface">
+            <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+          </button>
+          <button class="icon-button clear-chat-button" id="clear-chat-button" type="button" aria-label="Limpar conversa" title="Limpar conversa">
+            <i class="fa-regular fa-trash-can" aria-hidden="true"></i>
+          </button>
+        </div>
+      </header>
+
+      <section class="chat-area" aria-label="Conversa com Hanna">
+        <div class="welcome-screen" id="welcome-screen">
+          <div class="welcome-mark" aria-hidden="true">
+            <span class="welcome-orbit orbit-one"></span>
+            <span class="welcome-orbit orbit-two"></span>
+            <span class="welcome-avatar"><i class="fa-solid fa-brain"></i></span>
+            <span class="orbit-sparkle sparkle-one"><i class="fa-solid fa-sparkles"></i></span>
+            <span class="orbit-sparkle sparkle-two"><i class="fa-solid fa-plus"></i></span>
+          </div>
+          <p class="welcome-eyebrow">OLÁ, EU SOU A HANNA</p>
+          <h2>O que vamos<br><span>imaginar juntos?</span></h2>
+          <p class="welcome-description">Traga uma ideia ainda bagunçada. A gente encontra o próximo passo, sem pressa e sem complicação.</p>
+
+          <div class="conversation-paths">
+            <p class="paths-label">PARA COMEÇAR, ESCOLHA UM CAMINHO</p>
+            <button class="prompt-suggestion" type="button" data-prompt="Quero tirar uma ideia do papel. Por onde começo?">
+              <span class="path-icon"><i class="fa-solid fa-seedling" aria-hidden="true"></i></span>
+              <span class="path-copy"><strong>Tenho uma ideia</strong><span>Vamos dar forma ao que você imaginou</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square path-arrow" aria-hidden="true"></i>
+            </button>
+            <button class="prompt-suggestion" type="button" data-prompt="Me ajude a organizar os requisitos de um aplicativo.">
+              <span class="path-icon"><i class="fa-solid fa-layer-group" aria-hidden="true"></i></span>
+              <span class="path-copy"><strong>Quero criar um produto</strong><span>Organize funções, telas e prioridades</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square path-arrow" aria-hidden="true"></i>
+            </button>
+            <button class="prompt-suggestion" type="button" data-prompt="Quais tecnologias posso usar para criar meu projeto?">
+              <span class="path-icon"><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i></span>
+              <span class="path-copy"><strong>Preciso de uma direção</strong><span>Explore caminhos e escolhas técnicas</span></span>
+              <i class="fa-solid fa-arrow-up-right-from-square path-arrow" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions text"></div>
+      </section>
+
+      <footer class="composer-area">
+        <form class="composer" id="chat-form">
+          <label class="sr-only" for="chat-input">Mensagem para Hanna</label>
+          <textarea id="chat-input" name="message" rows="1" maxlength="4000" placeholder="Conte sua ideia para Hanna..." required></textarea>
+          <span class="composer-hint" aria-hidden="true">Enter ↵</span>
+          <button class="send-button" id="send-button" type="submit" aria-label="Enviar mensagem" disabled>
+            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+          </button>
+        </form>
+        <p class="composer-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> A conexão com o serviço de IA ainda não foi configurada.</p>
+      </footer>
+    </main>
+  </div>
+
+  <dialog class="settings-dialog" id="settings-dialog" aria-labelledby="settings-title">
+    <form method="dialog" class="settings-panel">
+      <header class="settings-header">
+        <div class="settings-title-group">
+          <span class="settings-icon" aria-hidden="true"><i class="fa-solid fa-sliders"></i></span>
+          <div>
+            <p class="settings-eyebrow">SEU ESPAÇO, DO SEU JEITO</p>
+            <h2 id="settings-title">Personalizar interface</h2>
+          </div>
+        </div>
+        <button class="icon-button settings-close" type="submit" value="close" aria-label="Fechar configurações">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </header>
+
+      <fieldset class="settings-group">
+        <legend>Aparência</legend>
+        <p>Escolha o clima visual do seu espaço.</p>
+        <div class="settings-options theme-options">
+          <label class="setting-choice theme-choice">
+            <input type="radio" name="theme" value="zayin">
+            <span class="theme-preview theme-preview-zayin" aria-hidden="true"><span></span><i></i></span>
+            <span class="choice-copy"><strong>Azul Zayin</strong><span>Claro e sereno</span></span>
+          </label>
+          <label class="setting-choice theme-choice">
+            <input type="radio" name="theme" value="noite">
+            <span class="theme-preview theme-preview-night" aria-hidden="true"><span></span><i></i></span>
+            <span class="choice-copy"><strong>Noite azul</strong><span>Escuro e acolhedor</span></span>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="settings-group">
+        <legend>Tamanho do texto</legend>
+        <p>Ajuste a leitura para ficar mais confortável.</p>
+        <div class="settings-options segmented-options">
+          <label class="setting-choice">
+            <input type="radio" name="text-size" value="compacto">
+            <span>Compacto</span>
+          </label>
+          <label class="setting-choice">
+            <input type="radio" name="text-size" value="padrao">
+            <span>Padrão</span>
+          </label>
+          <label class="setting-choice">
+            <input type="radio" name="text-size" value="ampliado">
+            <span>Ampliado</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="settings-group">
+        <legend>Largura da conversa</legend>
+        <p>Defina quanto espaço as mensagens ocupam.</p>
+        <div class="settings-options segmented-options">
+          <label class="setting-choice">
+            <input type="radio" name="chat-width" value="conforto">
+            <span>Confortável</span>
+          </label>
+          <label class="setting-choice">
+            <input type="radio" name="chat-width" value="ampla">
+            <span>Ampla</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <p class="settings-status" id="settings-status" role="status" aria-live="polite"></p>
+      <footer class="settings-footer">
+        <button class="reset-settings-button" id="reset-settings-button" type="button">Restaurar padrão</button>
+        <button class="settings-done-button" type="submit" value="close">Concluído</button>
+      </footer>
+    </form>
+  </dialog>
+
+  <script src="../js/app.js" defer></script>
+</body>
+</html>
